@@ -1,0 +1,8 @@
+{
+  "mae_vec_coarse_to_fine": 0.1212894394993782,
+  "mae_vec_corrected_to_fine": 0.024484338238835335,
+  "mae_vec_deltas_pred_vs_true": 0.024484338238835335,
+  "RER": 0.7981329756350388,
+  "melhora_MAE_pct": 79.81329756350388,
+  "N": 58732
+}

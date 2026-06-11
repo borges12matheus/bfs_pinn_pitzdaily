@@ -1,0 +1,30 @@
+FoamFile
+{
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object sampleDict;
+}
+
+type                sets;
+libs                ("libsampling.so");
+
+writeControl         timeStep;
+writeInterval        1;
+
+setFormat            raw;
+surfaceFormat        raw;
+
+interpolationScheme  cellPoint;
+
+fields (U p);
+
+sets
+(
+    grid2D
+    {
+        type    cloud;
+        axis    xyz;
+        points  #include "../gridPoints.xyz";
+    }
+);
