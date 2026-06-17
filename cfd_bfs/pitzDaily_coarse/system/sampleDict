@@ -17,7 +17,7 @@ surfaceFormat        raw;
 
 interpolationScheme  cellPoint;
 
-fields (U p);
+fields (U p k epsilon nut);
 
 sets
 (

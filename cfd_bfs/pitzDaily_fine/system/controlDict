@@ -28,15 +28,15 @@ deltaT          1;
 
 writeControl    timeStep;
 
-writeInterval   100;
+writeInterval   1000;
 
-purgeWrite      0;
+purgeWrite      1;
 
-writeFormat     ascii;
+writeFormat     binary;
 
 writePrecision  6;
 
-writeCompression off;
+writeCompression on;
 
 timeFormat      general;
 
@@ -46,7 +46,6 @@ runTimeModifiable true;
 
 functions
 {
-    #includeFunc streamlines
 }
 
 

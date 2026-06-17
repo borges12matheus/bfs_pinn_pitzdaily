@@ -1,0 +1,17 @@
+{
+  "split": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "n_total": 58732,
+  "n_train": 41112,
+  "n_val": 8810,
+  "n_test": 8810,
+  "mae_base_test": 0.12264095826745842,
+  "mae_corr_test": 0.012204985503900598,
+  "rer_test": 0.733209289163846,
+  "improve_mae_pct_test": 90.04819786446575,
+  "best_val_loss_scaled": 0.03568422049283981,
+  "device": "cuda"
+}
